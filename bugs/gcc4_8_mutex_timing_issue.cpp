@@ -1,4 +1,7 @@
 /**
+ * @file gcc4_8_mutex_timing_issue.cpp
+ * @author Vishal Jain
+ *
  * This code displays the timing issue in mutex locking as exhibited by GCC 4.8.
  * Parent/main function locks a mutex then starts the thread. This thread tries
  * to lock the same mutex for a specified duration (5 second in this example).
